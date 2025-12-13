@@ -101,6 +101,28 @@
     input[type="text"], input[type="email"], select, textarea{
       width:100%;padding:.6rem;border-radius:8px;border:1px solid rgba(0,0,0,0.08)
     }
+/* Pro card highlight */
+.pro-card{
+  position: relative;
+  transform: scale(1.05);
+  border: 2px solid #e6b23c;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.18);
+}
+
+/* Recommended badge */
+.pro-card .badge{
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg,#ffd66a,#e6b23c);
+  color: #0f1724;
+  padding: 4px 12px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
   </style>
 </head>
 <body>
